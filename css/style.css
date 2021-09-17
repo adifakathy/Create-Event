@@ -95,13 +95,13 @@ span{
 p{
     font-family:Proxima Nova SemiBold ;
 }
-.type1{
+.datepeople{
     display: flex;
     grid-gap: 30px;
     margin-bottom: 28px;
 }
 
-.type1 input{
+.datepeople input{
     width: 226px;
     height: 34px; 
     background: rgba(235, 235, 235, 0.8);
@@ -110,7 +110,6 @@ border: none;
 outline: none;
 
 }
-
 
 
 .eventbtn{
@@ -149,10 +148,60 @@ color: var(--primary);
 .notify a:hover{
     color: var(--pure);
 }
+.typex{
+    display: flex;
+    grid-gap: 30px;
+    margin-bottom: 28px;
+       
+}
+.loc{
+    width: 226px;
+    height: 34px;
+    background: rgba(235, 235, 235, 0.8);
+    border-radius: 2px;
+}
+.loc input{
+    background: rgba(235, 235, 235, 0.8);
+    border: none;
+    margin-top: 8px;
+    font-size: 14px;
+line-height: 14px;
+    outline: none;
+}
+.loc i{
+    color: gray;
+    float: right;
+    margin-right: 4px;
+    margin-top: 8px;
 
+}
 
+.loc ul {
+    position: absolute;
+    background: var(--seconday);
+    list-style: none;
+    /* top: 70px;
+    left: 0; */
+    width: 226px;
+    border-radius: 5px;
+    display: none;
 
+}
+.loc ul li{
+    text-align: center;
+    font-family: Proxima Nova Regular;
+}
 
+.loc ul li a{
+    color: var(--pure);
+    text-decoration: none;
+}
+.check{
+    display: none;
+}
+[id^=dropdownbtn]:checked + ul{
+    display: block;
+}
 
 
 
